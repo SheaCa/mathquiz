@@ -18,10 +18,11 @@
         android:layout_height="wrap_content"
         android:text="Hello Miles!" />
 
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello Aidan" />
+        android:text="im in your walls" />
 
     <TextView
         android:layout_width="wrap_content"
