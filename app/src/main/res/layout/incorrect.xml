@@ -4,4 +4,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Incorrect"
+        android:textSize="100dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="500sp"
+        android:src="@drawable/incorrect"
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:text="try again"
+        android:textSize="40sp"/>
+
 </LinearLayout>
