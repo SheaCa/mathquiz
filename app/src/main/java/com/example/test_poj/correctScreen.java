@@ -3,7 +3,7 @@ package com.example.test_poj;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.widget.Button;
+//import android.widget.Button;
 
 public class correctScreen extends AppCompatActivity {
 
