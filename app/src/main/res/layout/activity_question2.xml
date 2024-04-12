@@ -6,30 +6,34 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="2. x/3=(2x+3)/7. Solve for x."
         android:textSize="40sp"/>
 
     <Button
+        android:id="@+id/button5"
         android:layout_width="136dp"
         android:layout_height="wrap_content"
         android:text="A. 3/7"
         android:textSize="40sp" />
 
     <Button
+        android:id="@+id/button6"
         android:layout_width="136dp"
         android:layout_height="wrap_content"
         android:text="B.2"
         android:textSize="40sp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button7"
         android:layout_width="136dp"
         android:layout_height="wrap_content"
         android:textSize="40sp"
         android:text="C.-3" />
     <Button
+        android:id="@+id/button8"
         android:layout_width="136dp"
         android:layout_height="wrap_content"
         android:textSize="40sp"
