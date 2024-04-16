@@ -11,21 +11,21 @@
         android:id="@+id/textView4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="4. x/3=(2x+3)/7"
+        android:text="4. x+5=3x-1. Solve for x."
         android:textSize="44sp"/>
 
     <Button
         android:id="@+id/button13"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="A. 3/7"
+        android:text="cA. 3"
         android:textSize="40sp"/>
 
     <Button
         android:id="@+id/button14"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="B. 2"
+        android:text="B. 4"
         android:textSize="40sp"/>
 
     <Button
