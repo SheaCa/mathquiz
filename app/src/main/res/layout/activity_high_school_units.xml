@@ -10,38 +10,46 @@
 
 
   <TextView
+      android:id="@+id/text1"
       android:layout_width="match_parent"
       android:layout_height="80dp"
-        android:textSize="74dp"
+        android:textSize="74sp"
         android:text="PICK A UNIT"
         android:background="@color/black"
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+      />
 
   <Button
+      android:id="@+id/unitbutton1"
       android:layout_width="match_parent"
       android:layout_height="60dp"
       android:text="Calculus"
-      android:textSize="30dp" />
+      android:textSize="30sp"
+      />
 
  <Button
+     android:id="@+id/unitbutton2"
      android:layout_width="match_parent"
      android:layout_height="60dp"
        android:text="Algebra 1"
-       android:textSize="30dp" />
+       android:textSize="30sp"
+     android:onClick="alg1btn"
+     />
 
   <Button
+      android:id="@+id/unitbutton3"
       android:layout_width="match_parent"
       android:layout_height="60dp"
       android:text="Geometry"
-          
-      android:textSize="30dp">
+      android:textSize="30sp"
+      />
+
       <Button
+          android:id="@+id/unitbutton4"
           android:layout_width="wrap_content"
           android:layout_height="60dp"
         android:text="Back"
-          android:textSize="25dp"
-              
-      android:textSize="30dp" />
-    
+          android:textSize="25sp"
+          />
 
 </LinearLayout>
