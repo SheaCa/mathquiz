@@ -13,12 +13,17 @@
         android:text="correct!"
         android:textSize="100dp" />
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="500sp"
+        android:src="@drawable/checkmark"/>
+
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Try again?" />
-
+        android:layout_height="100sp"
+        android:text="Next Problem?"
+        android:textSize="40sp"/>
 
 
 </LinearLayout>
