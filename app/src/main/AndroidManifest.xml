@@ -13,6 +13,28 @@
         android:theme="@style/Theme.Test_poj"
         tools:targetApi="31">
         <activity
+
+            android:name=".Question6Activity"
+            android:exported="false"
+            android:label="@string/title_activity_question6"
+            android:theme="@style/Theme.Test_poj" />
+        <activity
+            android:name=".Question5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Question4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Question3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".questionActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Question2Activity"
+            android:exported="false"
+            android:label="@string/title_activity_question2"
+
             android:name=".incorrect"
             android:exported="false"
             android:label="@string/title_activity_incorrect"
@@ -21,6 +43,7 @@
             android:name=".incorrectScreen"
             android:exported="false"
             android:label="@string/title_activity_incorrect_screen"
+
             android:theme="@style/Theme.Test_poj" />
         <activity
             android:name=".highSchoolUnits"
