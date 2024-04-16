@@ -30,30 +30,20 @@
         <activity
             android:name=".questionActivity2"
             android:exported="false" />
-        <activity
-            android:name=".Question2Activity"
-            android:exported="false"
-            android:label="@string/title_activity_question2"
 
+        <activity
             android:name=".incorrect"
             android:exported="false"
             android:label="@string/title_activity_incorrect"
             android:theme="@style/Theme.Test_poj" />
-        <activity
-            android:name=".incorrectScreen"
-            android:exported="false"
-            android:label="@string/title_activity_incorrect_screen"
 
-            android:theme="@style/Theme.Test_poj" />
         <activity
             android:name=".highSchoolUnits"
             android:exported="false" />
         <activity
             android:name=".grades_screen"
             android:exported="false" />
-        <activity
-            android:name=".ActivityQuestion"
-            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
