@@ -17,7 +17,7 @@
         android:id="@+id/button9"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="A. 6"
+        android:text="cA. 6"
         android:textSize="40sp"/>
 
     <Button
