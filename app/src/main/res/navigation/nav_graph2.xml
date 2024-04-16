@@ -28,7 +28,7 @@
             android:id="@+id/action_Second2Fragment_to_First2Fragment"
             app:destination="@id/First2Fragment" />
 
-    app:startDestination="@id/FirstFragment">
+
 
     <fragment
         android:id="@+id/FirstFragment"
