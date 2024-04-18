@@ -12,17 +12,16 @@ import android.widget.Button;
 
 
 public class MainActivity extends AppCompatActivity{
-
+       @Override
        protected void onCreate(Bundle savedInstanceState) {
-              onCreate(savedInstanceState);
+              super.onCreate(savedInstanceState);
               setContentView(R.layout.activity_main);
        }
 
        public void change_to_unit_screen(View v) {
+              startActivity(new Intent(MainActivity.this, HighSchoolUnits.class));
 
        }
 
 
 }
-
-//       startActivity(new Intent(MainActivity.this,));
