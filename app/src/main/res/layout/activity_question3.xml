@@ -9,16 +9,16 @@
     <TextView
         android:id="@+id/textView3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="66dp"
         android:text="3. 3(2y+4)=8y. Solve for y."
-        android:textSize="44sp"/>
+        android:textSize="33sp" />
 
     <Button
         android:id="@+id/button9"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="A. 6"
-        android:textSize="40sp"/>
+        android:textSize="40sp" />
 
     <Button
         android:id="@+id/button10"
