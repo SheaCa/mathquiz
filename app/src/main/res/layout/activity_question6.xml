@@ -18,26 +18,30 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="A. -8"
-        android:textSize="40sp"/>
+        android:textSize="40sp"
+        android:onClick="change_to_incorrect_screen"/>
 
     <Button
         android:id="@+id/button22"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="B. -3"
-        android:textSize="40sp"/>
+        android:textSize="40sp"
+        android:onClick="change_to_incorrect_screen"/>
 
     <Button
         android:id="@+id/button23"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="cC. -8,-2"
-        android:textSize="40sp"/>
+        android:text="C. -8,-2"
+        android:textSize="40sp"
+        android:onClick="change_to_correct_screen"/>
 
     <Button
         android:id="@+id/button24"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="D. -8,-3"
-        android:textSize="40sp"/>
+        android:textSize="40sp"
+        android:onClick="change_to_incorrect_screen"/>
 </LinearLayout>
