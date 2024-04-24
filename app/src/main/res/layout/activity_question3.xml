@@ -9,35 +9,40 @@
     <TextView
         android:id="@+id/textView3"
         android:layout_width="match_parent"
-        android:layout_height="66dp"
+        android:layout_height="wrap_content"
         android:text="3. 3(2y+4)=8y. Solve for y."
-        android:textSize="33sp" />
+        android:textSize="44sp"/>
 
     <Button
         android:id="@+id/button9"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="A. 6"
-        android:textSize="40sp" />
+        android:textSize="40sp"
+        android:onClick="change_to_correct_screen"/>
+
 
     <Button
         android:id="@+id/button10"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="B. -2"
-        android:textSize="40sp"/>
+        android:textSize="40sp"
+        android:onClick="change_to_incorrect_screen"/>
 
     <Button
         android:id="@+id/button11"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="C. -8"
-        android:textSize="40sp"/>
+        android:textSize="40sp"
+        android:onClick="change_to_incorrect_screen"/>
 
     <Button
         android:id="@+id/button12"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="D. -6"
-        android:textSize="40sp"/>
+        android:textSize="40sp"
+        android:onClick="change_to_incorrect_screen"/>
 </LinearLayout>

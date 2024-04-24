@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="correct!"
+        android:text="Correct!"
         android:textSize="100dp" />
 
     <ImageView
@@ -23,7 +23,8 @@
         android:layout_width="match_parent"
         android:layout_height="100sp"
         android:text="Next Problem?"
-        android:textSize="40sp"/>
+        android:textSize="40sp"
+        android:onClick="enter"/>
 
 
 </LinearLayout>

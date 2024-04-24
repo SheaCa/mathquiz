@@ -19,6 +19,9 @@ public class MainActivity extends AppCompatActivity{
        }
 
        public void change_to_unit_screen(View v) {
-              startActivity(new Intent(MainActivity.this, highSchoolUnits.class));
+              startActivity(new Intent(MainActivity.this, HighSchoolUnits.class));
+
        }
+
+
 }
