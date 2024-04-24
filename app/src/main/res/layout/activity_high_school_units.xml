@@ -25,6 +25,7 @@
       android:layout_height="60dp"
       android:text="Calculus"
       android:textSize="30sp"
+      android:onClick="CalcQuestions"
       />
 
  <Button
@@ -42,6 +43,7 @@
       android:layout_height="60dp"
       android:text="Geometry"
       android:textSize="30sp"
+      android:onClick="geometryBtn"
       />
 
       <Button
@@ -50,6 +52,7 @@
           android:layout_height="60dp"
         android:text="Back"
           android:textSize="25sp"
+          android:onClick="backbtn"
           />
 
 </LinearLayout>
