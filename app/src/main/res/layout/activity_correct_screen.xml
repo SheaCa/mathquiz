@@ -24,7 +24,7 @@
         android:layout_height="100sp"
         android:text="Next Problem?"
         android:textSize="40sp"
-        android:onClick="enter"/>
+        android:onClick="change_to_next_screen"/>
 
 
 </LinearLayout>
