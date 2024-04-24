@@ -23,7 +23,7 @@ public class HighSchoolUnits extends AppCompatActivity {
     }
 
     public void CalcQuestions(View v) {
-
+        startActivity(new Intent(HighSchoolUnits.this, HighSchoolUnits.class));
 
     }
 }
