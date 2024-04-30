@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:text="A. 3"
         android:textSize="40sp"
-        android:onClick="change_to_correct_screen"/>
+        android:onClick="change_to_question_5"/>
 
     <Button
         android:id="@+id/button14"

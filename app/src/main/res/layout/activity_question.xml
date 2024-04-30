@@ -13,12 +13,6 @@
         android:text="1. 2x=4"
         android:textSize="44sp"/>
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="1. 2x=4"
-        android:textSize="40sp"/>
 
     <Button
         android:layout_width="match_parent"
@@ -32,7 +26,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="B.2"
-        android:textSize="40sp" />
+        android:textSize="40sp"
+        android:onClick="change_to_question_3"/>
 
     <Button
 
@@ -40,14 +35,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="40sp"
-        android:text="C.6" />
+        android:text="C.6"
+        android:onClick="change_to_incorrect_screen"/>
+
     <Button
 
         android:id="@+id/button4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="40sp"
-        android:text="D.8" />
+        android:text="D.8"
+        android:onClick="change_to_incorrect_screen"/>
 
 
 

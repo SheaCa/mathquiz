@@ -10,21 +10,21 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Correct!"
-        android:textSize="100dp" />
+        android:text="YOU GOT EVERTHING CORRECT!"
+        android:textSize="50dp" />
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="500sp"
+        android:layout_height="450sp"
         android:src="@drawable/checkmark"/>
 
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="100sp"
-        android:text="Next Problem?"
+        android:text="NEW UNIT?"
         android:textSize="40sp"
-        android:onClick="change_to_next_screen"/>
+        android:onClick="change_to_unit_screen"/>
 
 
 </LinearLayout>

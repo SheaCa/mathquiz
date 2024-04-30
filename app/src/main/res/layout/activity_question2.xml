@@ -41,7 +41,7 @@
         android:layout_height="wrap_content"
         android:textSize="40sp"
         android:text="D.9"
-        android:onClick="change_to_correct_screen"/>
+        android:onClick="change_to_question_3"/>
 
 
 
