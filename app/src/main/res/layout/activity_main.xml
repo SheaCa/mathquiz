@@ -20,7 +20,9 @@
             android:layout_height="wrap_content"
             android:textSize="100dp"
             android:text="Study Math Quiz!"
-            app:autoSizeTextType="uniform" />
+            android:textAlignment="center"
+            app:autoSizeTextType="uniform"
+            android:layout_marginBottom="20dp"/>
 
         <Button
             android:id="@+id/button1"
@@ -28,7 +30,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Start Studying!"
-            android:onClick="change_to_unit_screen"/>
+            android:onClick="unitScreen"/>
     </LinearLayout>
 
     <ImageView

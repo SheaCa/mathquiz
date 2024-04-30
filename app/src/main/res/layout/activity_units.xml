@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UnitsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textSize="54sp"
+        android:text="PICK A UNIT"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Calculus"
+        android:textSize="30sp"
+        android:onClick="calcQuestions" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Algebra 1"
+        android:textSize="30sp"
+        android:onClick="alg1Btn"
+        />
+
+    <Button
+        android:id="@+id/unitbutton3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Geometry"
+        android:textSize="30sp"
+        android:onClick="geometryBtn"
+        />
+
+    <Button
+        android:id="@+id/unitbutton4"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="Home"
+        android:textSize="25sp"
+        android:onClick="backBtn"
+        />
+
+
+
+</LinearLayout>

@@ -24,4 +24,9 @@ public class questionActivity2 extends AppCompatActivity {
     {
         startActivity(new Intent(questionActivity2.this, Question3Activity.class));
 
-}}
+}
+
+    public void backBtn(View view) {
+        startActivity(new Intent(questionActivity2.this, UnitsActivity.class));
+    }
+}

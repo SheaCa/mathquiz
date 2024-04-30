@@ -18,4 +18,9 @@ public class Question3Activity extends AppCompatActivity {
     }
     public void change_to_question_4(View v) {
         startActivity(new Intent(Question3Activity.this, Question4Activity.class));
-    }}
+    }
+
+    public void backBtn(View view) {
+        startActivity(new Intent(Question3Activity.this, UnitsActivity.class));
+    }
+}

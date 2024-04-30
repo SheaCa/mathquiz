@@ -23,5 +23,8 @@ public class ActivityQuestion extends AppCompatActivity {
     }
 
 
+    public void backBtn(View view) {
+        startActivity(new Intent(ActivityQuestion.this, MainActivity.class));
+    }
 }
 
