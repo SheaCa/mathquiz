@@ -40,9 +40,7 @@
             android:exported="false"
             android:label="@string/title_activity_incorrect"
             android:theme="@style/Theme.Test_poj" />
-        <activity
-            android:name=".highSchoolUnits"
-            android:exported="false" />
+
         <activity
             android:name=".grades_screen"
             android:exported="false" />
