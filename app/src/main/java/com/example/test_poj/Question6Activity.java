@@ -16,8 +16,8 @@ public class Question6Activity extends AppCompatActivity {
     public void change_to_incorrect_screen(View v) {
         startActivity(new Intent(Question6Activity.this, incorrect.class));
     }
-    public void change_to_correct_screen(View v)
+    public void change_to_question_7(View v)
 
     {
-        startActivity(new Intent(Question6Activity.this, correctScreen.class));
+        startActivity(new Intent(Question6Activity.this, Question7Activity.class));
 }}

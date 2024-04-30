@@ -16,10 +16,10 @@ public class ActivityQuestion extends AppCompatActivity {
     public void change_to_incorrect_screen(View v) {
         startActivity(new Intent(ActivityQuestion.this, incorrect.class));
     }
-    public void change_to_correct_screen(View v)
+    public void change_to_question_2(View v)
 
     {
-        startActivity(new Intent(ActivityQuestion.this, correctScreen.class));
+        startActivity(new Intent(ActivityQuestion.this, questionActivity2.class));
     }
 
 
