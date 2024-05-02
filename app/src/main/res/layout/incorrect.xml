@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".incorrect">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Incorrect"
-        android:textSize="100dp" />
+        android:textSize="75dp"
+        android:textAlignment="center"/>
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="500sp"
+        android:layout_height="400sp"
         android:src="@drawable/incorrect" />
 
     <Button

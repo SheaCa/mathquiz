@@ -19,7 +19,7 @@ public class ActivityQuestion extends AppCompatActivity {
     public void change_to_question_2(View v)
 
     {
-        startActivity(new Intent(ActivityQuestion.this, questionActivity2.class));
+        startActivity(new Intent(ActivityQuestion.this, Alg2Activity.class));
     }
 
 
