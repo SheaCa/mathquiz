@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    tools:context=".Calc7Activity">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="7. Identify the value of c that satisfies the Mean Value Theorem for h(z)=4z^3-8z^2+7z-2on[2,5]?"
+        android:textSize="34sp"/>
+
+    <Button
+        android:id="@+id/button52"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A. 3.6294"
+        android:textSize="35sp"
+        android:onClick="correctScreen"/>
+
+    <Button
+        android:id="@+id/button53"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="B. 0"
+        android:onClick="incorrectScreen"
+        android:textSize="35sp"/>
+
+    <Button
+        android:id="@+id/button54"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C. 3.95"
+        android:textSize="35sp"
+        android:onClick="incorrectScreen"/>
+
+    <Button
+        android:id="@+id/button55"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="D. 2.95"
+        android:textSize="35sp"
+        android:onClick="incorrectScreen"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="Home"
+        android:textSize="25sp"
+        android:onClick="backBtn" />
+
+</LinearLayout>

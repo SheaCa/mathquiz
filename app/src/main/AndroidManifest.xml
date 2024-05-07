@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Test_poj"
         tools:targetApi="31">
         <activity
+            android:name=".Calc7Activity"
+            android:exported="false" />
+        <activity
             android:name=".Calc6Activity"
             android:exported="false" />
         <activity
@@ -37,21 +40,21 @@
             android:name=".UnitsActivity"
             android:exported="false" />
         <activity
-            android:name=".Question6Activity"
+            android:name=".Alg6Activity"
             android:exported="false"
             android:label="@string/title_activity_question6"
             android:theme="@style/Theme.Test_poj" />
         <activity
-            android:name=".Question5Activity"
+            android:name=".Alg5Activity"
             android:exported="false" />
         <activity
-            android:name=".Question4Activity"
+            android:name=".Alg4Activity"
             android:exported="false" />
         <activity
-            android:name=".Question3Activity"
+            android:name=".Alg3Activity"
             android:exported="false" />
         <activity
-            android:name=".questionActivity2"
+            android:name=".Alg2Activity"
             android:exported="false" />
         <activity
             android:name=".incorrect"

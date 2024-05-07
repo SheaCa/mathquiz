@@ -6,21 +6,21 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class Question3Activity extends AppCompatActivity {
+public class Alg3Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_question3);
+        setContentView(R.layout.activity_alg3);
     }
     public void change_to_incorrect_screen(View v) {
-        startActivity(new Intent(Question3Activity.this, incorrect.class));
+        startActivity(new Intent(Alg3Activity.this, incorrect.class));
     }
     public void change_to_question_4(View v) {
-        startActivity(new Intent(Question3Activity.this, Question4Activity.class));
+        startActivity(new Intent(Alg3Activity.this, Alg4Activity.class));
     }
 
     public void backBtn(View view) {
-        startActivity(new Intent(Question3Activity.this, UnitsActivity.class));
+        startActivity(new Intent(Alg3Activity.this, UnitsActivity.class));
     }
 }

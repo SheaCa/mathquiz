@@ -6,18 +6,18 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class Question7Activity extends AppCompatActivity {
+public class Alg5Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_question7);
+        setContentView(R.layout.activity_alg5);
     }
     public void change_to_incorrect_screen(View v) {
-        startActivity(new Intent(Question7Activity.this, incorrect.class));
+        startActivity(new Intent(Alg5Activity.this, incorrect.class));
     }
-    public void change_to_correct_screen(View v)
+    public void change_to_question_6(View v)
 
     {
-        startActivity(new Intent(Question7Activity.this, correctScreen.class));
+        startActivity(new Intent(Alg5Activity.this, Alg6Activity.class));
 }}

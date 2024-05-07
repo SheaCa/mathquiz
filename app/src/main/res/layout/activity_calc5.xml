@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    tools:context=".Calc5Activity">
+
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5. For a function f(x) to satisfy the mean value theorem over (a, b), the function should be continuous on:"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/button45"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A. {a,b)"
+        android:textSize="40sp"
+        android:onClick="incorrectScreen"/>
+
+    <Button
+        android:id="@+id/button46"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="B. (a,b}"
+        android:textSize="40sp"
+        android:onClick="incorrectScreen"/>
+
+    <Button
+        android:id="@+id/button47"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C. (a,b)"
+        android:textSize="40sp"
+        android:onClick="incorrectScreen"/>
+
+    <Button
+        android:id="@+id/button48"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="D. {a,b}"
+        android:textSize="40sp"
+        android:onClick="calc6"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="Home"
+        android:textSize="25sp"
+        android:onClick="backBtn" />
+
+</LinearLayout>

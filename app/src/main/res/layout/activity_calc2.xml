@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    tools:context=".Calc2Activity">
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Integral of the constant function f(x) = k is:"
+        android:textSize="38sp"/>
+
+    <Button
+        android:id="@+id/button32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A. C"
+        android:onClick="incorrectScreen"
+        android:textSize="40sp"/>
+
+    <Button
+        android:id="@+id/button33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="B. kx+C"
+        android:onClick="calc3"
+        android:textSize="40sp"/>
+
+    <Button
+        android:id="@+id/button34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C. 0"
+        android:onClick="incorrectScreen"
+        android:textSize="40sp"/>
+
+    <Button
+        android:id="@+id/button35"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="D. k+C"
+        android:onClick="incorrectScreen"
+        android:textSize="40sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="Home"
+        android:textSize="25sp"
+        android:onClick="backBtn" />
+
+</LinearLayout>

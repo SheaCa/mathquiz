@@ -15,7 +15,7 @@ public class UnitsActivity extends AppCompatActivity {
     }
 
     public void calcQuestions(View view) {
-        startActivity(new Intent(UnitsActivity.this, questionActivity2.class));
+        startActivity(new Intent(UnitsActivity.this, Alg2Activity.class));
     }
 
     public void alg1Btn(View view) {
@@ -24,7 +24,7 @@ public class UnitsActivity extends AppCompatActivity {
     }
 
     public void geometryBtn(View view) {
-        startActivity(new Intent(UnitsActivity.this, Question3Activity.class));
+        startActivity(new Intent(UnitsActivity.this, Alg3Activity.class));
     }
 
     public void backBtn(View view) {

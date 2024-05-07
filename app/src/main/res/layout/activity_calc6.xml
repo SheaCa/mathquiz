@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    tools:context=".Calc6Activity">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6. Determine all the value of c, for the function f(x)=4x^2 for the interval [2,5] which satisfies the mean value theorem (approx)."
+        android:textSize="30sp"/>
+
+
+    <Button
+        android:id="@+id/button44"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A. 5.5"
+        android:textSize="35sp"
+        android:onClick="incorrectScreen"/>
+
+    <Button
+        android:id="@+id/button49"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="B. 2.5"
+        android:textSize="35sp"
+        android:onClick="incorrectScreen"/>
+
+    <Button
+        android:id="@+id/button50"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C. 3.5"
+        android:textSize="35sp"
+        android:onClick="calc7"/>
+
+    <Button
+        android:id="@+id/button51"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="D. 4.5"
+        android:textSize="35sp"
+        android:onClick="incorrectScreen"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="Home"
+        android:textSize="25sp"
+        android:onClick="backBtn" />
+</LinearLayout>
