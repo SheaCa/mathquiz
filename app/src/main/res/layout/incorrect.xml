@@ -5,14 +5,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".incorrect">
+    tools:context=".incorrect"
+    android:background="@color/lightgrey">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Incorrect"
         android:textSize="75dp"
-        android:textAlignment="center"/>
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed-light"
+        android:background="@color/darkgrey"/>
 
     <ImageView
         android:layout_width="match_parent"
@@ -23,7 +27,8 @@
         android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="100sp"
-        android:text="try again"
-        android:textSize="40sp"/>
+        android:text="Try Again?"
+        android:textSize="40sp"
+        android:fontFamily="sans-serif-condensed-light"/>
 
 </LinearLayout>
