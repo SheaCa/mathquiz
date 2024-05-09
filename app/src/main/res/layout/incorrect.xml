@@ -1,25 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".incorrect"
+    android:background="@color/lightgrey">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Incorrect"
-        android:textSize="100dp" />
+        android:textSize="75dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed-light"
+        android:background="@color/darkgrey"/>
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="500sp"
+        android:layout_height="400sp"
         android:src="@drawable/incorrect" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="100sp"
-        android:text="try again"
-        android:textSize="40sp"/>
+        android:text="Try Again?"
+        android:textSize="40sp"
+        android:fontFamily="sans-serif-condensed-light"/>
 
 </LinearLayout>

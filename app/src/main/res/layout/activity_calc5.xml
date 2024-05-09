@@ -8,8 +8,6 @@
     android:orientation="vertical"
     tools:context=".Calc5Activity">
 
-
-
     <TextView
         android:id="@+id/textView12"
         android:layout_width="match_parent"

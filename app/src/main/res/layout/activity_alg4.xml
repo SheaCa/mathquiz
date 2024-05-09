@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".Alg4Activity"
+    android:background="@color/lightgrey">
 
 
     <TextView
@@ -12,7 +14,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="4. x+5=3x-1. Solve for x."
-        android:textSize="44sp"/>
+        android:textSize="44sp"
+        android:textColor="@color/white"
+        android:background="@color/darkgrey"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textStyle="italic|bold"
+        android:textAlignment="center"/>
 
     <Button
         android:id="@+id/button13"
@@ -20,7 +27,8 @@
         android:layout_height="wrap_content"
         android:text="A. 3"
         android:textSize="40sp"
-        android:onClick="change_to_question_5"/>
+        android:onClick="change_to_question_5"
+        android:fontFamily="sans-serif-condensed-light"/>
 
     <Button
         android:id="@+id/button14"
@@ -28,7 +36,8 @@
         android:layout_height="wrap_content"
         android:text="B. 4"
         android:textSize="40sp"
-        android:onClick="change_to_incorrect_screen"/>
+        android:onClick="change_to_incorrect_screen"
+        android:fontFamily="sans-serif-condensed-light"/>
 
     <Button
         android:id="@+id/button15"
@@ -36,7 +45,8 @@
         android:layout_height="wrap_content"
         android:text="C. -3"
         android:textSize="40sp"
-        android:onClick="change_to_incorrect_screen"/>
+        android:onClick="change_to_incorrect_screen"
+        android:fontFamily="sans-serif-condensed-light"/>
 
     <Button
         android:id="@+id/button16"
@@ -44,5 +54,14 @@
         android:layout_height="wrap_content"
         android:text="D. 9"
         android:textSize="40sp"
-        android:onClick="change_to_incorrect_screen"/>
+        android:onClick="change_to_incorrect_screen"
+        android:fontFamily="sans-serif-condensed-light"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Home"
+        android:textSize="25sp"/>
 </LinearLayout>

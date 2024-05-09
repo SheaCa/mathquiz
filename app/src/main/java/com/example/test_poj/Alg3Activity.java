@@ -17,7 +17,7 @@ public class Alg3Activity extends AppCompatActivity {
         startActivity(new Intent(Alg3Activity.this, incorrect.class));
     }
     public void change_to_question_4(View v) {
-        startActivity(new Intent(Alg3Activity.this, Alg4Activity.class));
+        startActivity(new Intent(Alg3Activity.this, Question4Activity.class));
     }
 
     public void backBtn(View view) {
