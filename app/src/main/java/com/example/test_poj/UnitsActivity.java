@@ -15,7 +15,7 @@ public class UnitsActivity extends AppCompatActivity {
     }
 
     public void calcQuestions(View view) {
-        startActivity(new Intent(UnitsActivity.this, Alg2Activity.class));
+        startActivity(new Intent(UnitsActivity.this, CalcActivity.class));
     }
 
     public void alg1Btn(View view) {
