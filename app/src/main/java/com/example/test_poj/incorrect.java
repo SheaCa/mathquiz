@@ -16,6 +16,6 @@ public class incorrect extends AppCompatActivity {
 
     }
     public void change_to_unit_screen(View v) {
-        startActivity(new Intent(incorrect.this, HighSchoolUnits.class));
+        startActivity(new Intent(incorrect.this, UnitsActivity.class));
     }
 }
