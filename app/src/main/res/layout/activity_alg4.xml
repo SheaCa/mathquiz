@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Question4Activity"
+    tools:context=".Alg4Activity"
     android:background="@color/lightgrey">
 
 
