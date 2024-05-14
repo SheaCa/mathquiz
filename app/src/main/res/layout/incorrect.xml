@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Incorrect"
-        android:textSize="75dp"
+        android:textSize="60dp"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:fontFamily="sans-serif-condensed-light"
@@ -20,7 +20,7 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="400sp"
+        android:layout_height="300sp"
         android:src="@drawable/incorrect" />
 
     <Button
