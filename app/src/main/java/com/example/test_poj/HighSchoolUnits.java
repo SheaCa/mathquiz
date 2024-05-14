@@ -13,7 +13,7 @@ public class HighSchoolUnits extends AppCompatActivity {
     }
 
     public void alg1btn(View v) {
-        startActivity(new Intent(HighSchoolUnits.this, ActivityQuestion.class));
+        startActivity(new Intent(HighSchoolUnits.this, AlgActivity.class));
 
     }
 

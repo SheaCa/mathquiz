@@ -15,9 +15,11 @@ public class AlgActivity extends AppCompatActivity {
     }
 
     public void incorrectScreen(View view) {
+        startActivity(new Intent(AlgActivity.this, incorrect.class));
     }
 
     public void question2(View view) {
+        startActivity(new Intent(AlgActivity.this, Alg2Activity.class));
     }
 
     public void backBtn(View view) {

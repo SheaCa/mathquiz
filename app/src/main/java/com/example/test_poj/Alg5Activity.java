@@ -17,7 +17,6 @@ public class Alg5Activity extends AppCompatActivity {
         startActivity(new Intent(Alg5Activity.this, incorrect.class));
     }
     public void change_to_question_6(View v)
-
     {
         startActivity(new Intent(Alg5Activity.this, Alg6Activity.class));
 }}

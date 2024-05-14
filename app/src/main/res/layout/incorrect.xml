@@ -29,6 +29,7 @@
         android:layout_height="100sp"
         android:text="Try Again?"
         android:textSize="40sp"
-        android:fontFamily="sans-serif-condensed-light"/>
+        android:fontFamily="sans-serif-condensed-light"
+        android:onClick="change_to_unit_screen"/>
 
 </LinearLayout>
