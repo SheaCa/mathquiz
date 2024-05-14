@@ -11,7 +11,7 @@ public class Alg7Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_question7);
+        setContentView(R.layout.activity_alg7);
     }
     public void change_to_incorrect_screen(View v) {
         startActivity(new Intent(Alg7Activity.this, incorrect.class));
